@@ -1,0 +1,14 @@
+{
+  "ext_name": {
+    "message": "Quilt: Arrange Your Windows"
+  },
+  "ext_description": {
+    "message": "Arrange your browser windows using predefined layouts."
+  },
+  "display": {
+    "message": "Display"
+  },
+  "no_display": {
+    "message": "Error: No Display Found"
+  }
+}

@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light;
+  --font-sans: system-ui,
+               -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               "Roboto",
+               "Oxygen",
+               "Ubuntu",
+               "Cantarell",
+               "Fira Sans",
+               "Droid Sans",
+               "Helvetica Neue",
+               Arial,
+               sans-serif;
+
+  --surface:    #FFFFFF;
+  --primary: #191919;
+  --secondary: #7F7F7F;
+  --tertiary: #DEDEDE;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface: #292A2D;
+    --primary: #EAEAEA;
+    --secondary: #949496;
+    --tertiary: #444548;
+  }
+}
